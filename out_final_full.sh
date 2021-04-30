@@ -1,3 +1,4 @@
+#!/bin/bash
 cd "$(dirname "$0")"
 
 version=2020.04

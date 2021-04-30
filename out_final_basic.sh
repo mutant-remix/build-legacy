@@ -1,3 +1,4 @@
+#!/bin/bash
 cd "$(dirname "$0")"
 
 # get orxporter to do its thing
