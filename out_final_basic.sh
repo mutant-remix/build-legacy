@@ -1,6 +1,6 @@
 #!/bin/bash
 cd "$(dirname "$0")"
-"./config.sh"
+source ./config.sh
 
 # get orxporter to do its thing
 ./orxporter/orxport.py -m manifest/out.orx -i ../input -C cache -q 32x32 -r resvg -o out/final/codepoint -f %f/%u -t ${threads} -F svg,pngc-32,pngc-128,pngc-512   &&

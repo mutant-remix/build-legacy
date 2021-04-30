@@ -1,6 +1,6 @@
 #!/bin/bash
 cd "$(dirname "$0")"
-"./config.sh"
+source ./config.sh
 
 # clean up
 echo "clean up existing files..."
