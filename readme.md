@@ -1,10 +1,12 @@
+<a href="https://mutant.revolt.chat">
+    <img src="assets/banner.png" style="margin: 20px 0"></img>
+</a>
+
 # Mutant Remix Build Files
 
 This repository contains all of the files required to build a custom Mutant Remix package using Orxporter.
 
-Mutant Remix is a fork of [Mutant Standard](https://mutant.tech/) with design changes by nizune.
-
------
+Mutant Remix is not affiliated with [Mutant Standard](https://mutant.tech/). This is a transformation of the original Mutant Standard emoji pack, created by nizune for [Revolt](https://revolt.chat/).
 
 This repository has no warranty and has only been tested with Arch Linux. :)
 
