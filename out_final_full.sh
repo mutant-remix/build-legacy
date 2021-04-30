@@ -5,10 +5,10 @@ version=2020.04
 
 # get orxporter to do its thing
 echo "creating images..."
-./orxporter/orxport.py -m manifest/out.orx -i ../input -C cache -q 32x32 -r rendersvg -o out/final/shortcode -f %f/%d/%s -t 4 -F svgo,pngc-32,pngc-128,pngc-512,webp-32,webp-128  &&
-./orxporter/orxport.py -m manifest/out.orx -i ../input -C cache -q 32x32 -r rendersvg -o out/final/codepoint -f %f/%u -t 4 -F svgo,pngc-32,pngc-128,pngc-512,webp-32,webp-128   &&
-./orxporter/orxport.py -m manifest/out.orx -i ../input -C cache -q 32x32 -r rendersvg -o out/final/mastodon -f ms_%s -t 4 -F pngc-128  &&
-./orxporter/orxport.py -m manifest/out.orx -i ../input -C cache -q 32x32 -r rendersvg -o out/final/font_sources -f png-%z/%u -t 4 -l -F pngc-32,pngc-64,pngc-128  &&
+./orxporter/orxport.py -m manifest/out.orx -i ../input -C cache -q 32x32 -r resvg -o out/final/shortcode -f %f/%d/%s -t 4 -F svgo,pngc-32,pngc-128,pngc-512,webp-32,webp-128  &&
+./orxporter/orxport.py -m manifest/out.orx -i ../input -C cache -q 32x32 -r resvg -o out/final/codepoint -f %f/%u -t 4 -F svgo,pngc-32,pngc-128,pngc-512,webp-32,webp-128   &&
+./orxporter/orxport.py -m manifest/out.orx -i ../input -C cache -q 32x32 -r resvg -o out/final/mastodon -f ms_%s -t 4 -F pngc-128  &&
+./orxporter/orxport.py -m manifest/out.orx -i ../input -C cache -q 32x32 -r resvg -o out/final/font_sources -f png-%z/%u -t 4 -l -F pngc-32,pngc-64,pngc-128  &&
 
 
 # export fonts
