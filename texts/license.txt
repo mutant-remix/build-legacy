@@ -1,5 +1,5 @@
 Mutant Remix emoji
-April 2021 (version 0.1)
+April 2021 (Release v1.0)
 mutant.revolt.chat
 
 Published 2021.04.30 (GMT)
