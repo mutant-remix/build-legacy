@@ -1,3 +1,7 @@
+## This repository has moved
+
+You are probably looking for [mutant-remix/mutant-remix](https://github.com/mutant-remix/mutant-remix)
+
 <a href="https://mutant.revolt.chat">
     <img src="assets/banner.png" style="margin: 20px 0"></img>
 </a>
